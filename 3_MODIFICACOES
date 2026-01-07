@@ -1,0 +1,5 @@
+update propriedades set preco_noite = preco_noite *1.1 where NOME_IMOVEL = 'CHOUPANA SERRA';
+
+delete from HOSPEDES where ID=2;
+
+ 

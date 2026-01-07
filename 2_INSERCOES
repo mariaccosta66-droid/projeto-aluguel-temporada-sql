@@ -1,0 +1,16 @@
+alter table propriedades add column preco_noite numeric (5,2);
+
+insert into hospedes (nome, email, telefone)
+values ('carlos', 'carlos@email.com', 981043874),
+('maria', 'maria@email.com', 981530780),
+('joao', 'joao@email.com', 988909042);
+
+insert into propriedades (nome_imovel,capacidade_hospedes, fk_endereco, preco_noite )
+values ( 'casa de praia', 8, 3, 500 ),
+( 'apartamento central',4,2, 845),
+( 'choupana na serra',1, 1, 960 );
+
+ insert into ENDERECOS (CIDADE, ESTADO)
+values ('PETROPOLIS', 'RJ'),
+('RIO DE JANEIRO', 'RJ'),
+('SAO PAULO', 'SP');
